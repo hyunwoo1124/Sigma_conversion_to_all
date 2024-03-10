@@ -25,7 +25,7 @@ Download the latest sigma repository from [SigmaHQ](https://github.com/SigmaHQ/s
 This script searches for a key string in the Sigma rules repository and copies them to a destination folder to translate the Sigma YARA rule into all available backends and pipelines. The intention is to understand the power of Sigma rules' conversion to most supported SIEM query languages.
 
 ## Sample Output
-```python
+```shell
 hyunwookim@Hyuns-MBP-2 Sigma_conversion_to_all % python3 ./sigma_conversion_all.py 
 Enter the directory where you wish to copy contents from: /Users/hyunwookim/Desktop/sigma/sigma/rules/windows/process_creation
 Whats the key string you are looking for?: base64
